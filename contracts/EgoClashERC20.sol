@@ -2,9 +2,9 @@
 pragma solidity ^0.8.24;
 
 /**
- * @title EgoClash ($EGO) — Official ERC-20 Smart Contract (Base / Ethereum)
+ * @title EgoClash ($EGOC) — Official ERC-20 Smart Contract (Base / Ethereum)
  * @notice 1,000,000,000 Fixed Supply • 0/0 Buy & Sell Tax • No Mint • No Blacklist
- * @dev Progettato per ottenere 100/100 sui radar di sicurezza (DexScreener, TokenSniffer, GoPlus).
+ * @dev Verifiable standard contract with immutable supply and renounceable ownership.
  */
 contract EgoClashERC20 {
     string public constant name = "EgoClash";
@@ -26,7 +26,7 @@ contract EgoClashERC20 {
     event LaunchLimitsRemoved();
 
     modifier onlyOwner() {
-        require(msg.sender == owner, "EGO: Caller is not the owner");
+        require(msg.sender == owner, "EGOC: Caller is not the owner");
         _;
     }
 
