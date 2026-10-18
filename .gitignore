@@ -1,0 +1,17 @@
+# Private Enclave & Proprietary IP (Kept strictly local / private VM, NEVER on public GitHub)
+src/
+public/
+scripts/
+data/
+knowledge_base/
+docs/
+package.json
+package-lock.json
+contracts/solana_dev_buy_calculator.js
+
+# Secrets & Environment
+node_modules/
+.env
+.env.*
+.DS_Store
+*.log
