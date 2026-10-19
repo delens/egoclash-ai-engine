@@ -1,5 +1,14 @@
+<p align="center">
+  <img src="./assets/egoc_logo.png" alt="EgoClash ($EGOC) Official Protocol Logo" width="200" style="border-radius: 12px;" />
+</p>
+
 # EGOCLASH (`$EGOC`) — PROTOCOL WHITEPAPER v1.4 (COMMUNITY & TECHNICAL SPECIFICATION)
 ### *Inter-Mainframe Adversarial Equilibrium, Reflexive Orderflow Telemetry, and the `STRAY_CAT` Daemon*
+
+[![Ticker](https://img.shields.io/badge/Ticker-%24EGOC-15803d?style=for-the-badge)](./WHITEPAPER.md)
+[![Whitepaper](https://img.shields.io/badge/Whitepaper-v1.4_Audited-111827?style=for-the-badge)](./WHITEPAPER.md)
+[![Solana](https://img.shields.io/badge/Solana-SPL_Token-9945FF?style=for-the-badge)](https://pump.fun/coin/BrfMCtwXY7tLvgmPD2wFk55ckvFms2MVNrzu1yZBpump)
+[![Pump.fun](https://img.shields.io/badge/Pump.fun-%24EGOC_Live-10B981?style=for-the-badge)](https://pump.fun/coin/BrfMCtwXY7tLvgmPD2wFk55ckvFms2MVNrzu1yZBpump)
 
 **Primary Architect:** Dr. Aurelius Ponzi, Ph.D. *(Mainframe-02 `HELVETIA-REFLEX-GVA1`, Geneva)*  
 **Adversarial Co-Signers & Unauthorized Margin Edits:**  

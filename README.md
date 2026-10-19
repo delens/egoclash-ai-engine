@@ -1,12 +1,20 @@
+<p align="center">
+  <img src="./assets/egoc_logo.png" alt="EgoClash ($EGOC) Official Protocol Logo" width="220" style="border-radius: 14px;" />
+</p>
+
 # 🧠 EgoClash Protocol (`$EGOC`)
 ### Official Protocol Specifications, Mathematical Standards (`PVSE v1.2`) & Smart Contracts
 
 [![Ticker](https://img.shields.io/badge/Ticker-%24EGOC-15803d?style=for-the-badge)](./WHITEPAPER.md)
-[![Whitepaper](https://img.shields.io/badge/Read-Protocol_Whitepaper_v1.2-111827?style=for-the-badge)](./WHITEPAPER.md)
+[![Whitepaper](https://img.shields.io/badge/Read-Protocol_Whitepaper_v1.4-111827?style=for-the-badge)](./WHITEPAPER.md)
+[![Network](https://img.shields.io/badge/Network-Solana-9945FF?style=for-the-badge)](https://pump.fun/coin/BrfMCtwXY7tLvgmPD2wFk55ckvFms2MVNrzu1yZBpump)
+[![Pump.fun](https://img.shields.io/badge/Pump.fun-%24EGOC_Live-10B981?style=for-the-badge)](https://pump.fun/coin/BrfMCtwXY7tLvgmPD2wFk55ckvFms2MVNrzu1yZBpump)
 [![X](https://img.shields.io/badge/X-%40EgoClash__EGOC-000000?style=for-the-badge)](https://x.com/EgoClash_EGOC)
 [![Telegram](https://img.shields.io/badge/Telegram-t.me%2FEgoClash__EGOC-26A5E4?style=for-the-badge)](https://t.me/EgoClash_EGOC)
 
-This repository contains the **official Protocol Whitepaper, technical standards, mathematical specifications, TypeScript SDK interfaces, and verifiable smart contracts** for the **EgoClash (`$EGOC`)** protocol.
+This repository contains the **official Protocol Whitepaper v1.4, technical standards, mathematical specifications, TypeScript SDK interfaces, and verifiable smart contracts** for the **EgoClash (`$EGOC`)** protocol on Solana.
+
+> **Contract Address (Solana CA):** `BrfMCtwXY7tLvgmPD2wFk55ckvFms2MVNrzu1yZBpump`
 
 > **Proprietary IP & Security Notice:** To protect the protocol's intellectual property against sybil cloning and prompt extraction, the live **Multi-Agent Execution Enclave**, neural prompt weights, and SFT training datasets are operated strictly as a **closed-source private enclave**. The enclave interacts with on-chain state exclusively via read-only public spot telemetry and holds zero private keys or signing privileges.
 
@@ -16,7 +24,7 @@ This repository contains the **official Protocol Whitepaper, technical standards
 
 | Directory / File | Description |
 | :--- | :--- |
-| [**`WHITEPAPER.md`**](./WHITEPAPER.md) | **Official Protocol Whitepaper v1.2:** *Recursive Multi-Agent Reflexivity, Orderflow Paranoia, and Adversarial Equilibrium* (authored by `Dr. Ponzi` with uninvited terminal marginalia by `"Chad" Sterling`, `Marvin`, and `Arthur Pendelton`). |
+| [**`WHITEPAPER.md`**](./WHITEPAPER.md) | **Official Protocol Whitepaper v1.4:** *Inter-Mainframe Adversarial Equilibrium, Reflexive Orderflow Telemetry, and the `STRAY_CAT` Daemon* (authored by `Dr. Ponzi` with uninvited terminal marginalia by `"Chad" Sterling`, `Marvin`, and `Arthur Pendelton`). |
 | [**`specs/PVSE_MATHEMATICAL_STANDARD.md`**](./specs/PVSE_MATHEMATICAL_STANDARD.md) | **EGOC-SPEC-001:** Formal mathematical specification of the *Pre-Publication Virality & Spot-Truth Scoring Engine (`PVSE v1.2`)*. |
 | [**`specs/MULTI_AGENT_PROTOCOL_STANDARD.md`**](./specs/MULTI_AGENT_PROTOCOL_STANDARD.md) | **EGOC-SPEC-002:** Technical standard for *Asynchronous Multi-Agent Dialectical Consensus, Non-Homogeneous Poisson Pacing, and Strategic Silence ($\varnothing$)*. |
 | [**`contracts/EgoClashERC20.sol`**](./contracts/EgoClashERC20.sol) | Verifiable **0/0 Tax**, fixed-supply (`1,000,000,000 $EGOC`) ERC-20 Smart Contract with zero mint/freeze privileges. |
