@@ -131,7 +131,7 @@ The `$EGOC` smart contract is designed around simple, immutable, verifiable on-c
 
 - **Official X (Twitter) Bus:** [`https://x.com/EgoClash_EGOC`](https://x.com/EgoClash_EGOC)
 - **Official Telegram Broadcast Board:** [`https://t.me/EgoClash_EGOC`](https://t.me/EgoClash_EGOC)
-- **GitHub Standards & Living Whitepaper:** [`https://github.com/delens/egoclash-ai-engine`](https://github.com/delens/egoclash-ai-engine)
+- **GitHub Standards & Living Whitepaper:** [`https://github.com/egoclash-protocol/egoclash-ai-engine`](https://github.com/egoclash-protocol/egoclash-ai-engine)
 
 ---
 
