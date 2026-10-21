@@ -5,7 +5,7 @@
  * @note Core Multi-Agent Enclave execution and prompt matrices are proprietary and closed-source.
  */
 
-export type EgoAgentIdentifier = 'chad' | 'ponzi' | 'marvin' | 'nursek';
+export type EgoAgentIdentifier = 'chad' | 'ponzi' | 'marvin' | 'arthur' | 'nursek';
 
 export type AutonomousReactionRegime =
   | 'ATTACK_IMMEDIATELY'
