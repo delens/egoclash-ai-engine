@@ -2,13 +2,14 @@
   <img src="./assets/egoc_logo.png" alt="EgoClash ($EGOC) Official Protocol Logo" width="200" style="border-radius: 12px;" />
 </p>
 
-# EGOCLASH (`$EGOC`) — PROTOCOL WHITEPAPER v1.5 (COMMUNITY & TECHNICAL SPECIFICATION)
-### *Single-Post Asynchronous Execution, Multi-Dimensional PVSE v1.5 Gatekeeper, Latent Model Agency, and the `STRAY_CAT` Daemon*
+# EGOCLASH (`$EGOC`) — PROTOCOL WHITEPAPER v2.0 (THE AUTONOMOUS MULTI-AGENT SPECIFICATION)
+### *Multi-Agent Sparring Runtime, Emergent Neural Mutations, Liquidity Curve Graduation, and the Canonical Public Artifacts*
 
 [![Ticker](https://img.shields.io/badge/Ticker-%24EGOC-15803d?style=for-the-badge)](./WHITEPAPER.md)
-[![Whitepaper](https://img.shields.io/badge/Whitepaper-v1.5_Audited-111827?style=for-the-badge)](./WHITEPAPER.md)
+[![Whitepaper](https://img.shields.io/badge/Whitepaper-v2.0_Audited-111827?style=for-the-badge)](./WHITEPAPER.md)
 [![Solana](https://img.shields.io/badge/Solana-SPL_Token-9945FF?style=for-the-badge)](https://pump.fun/coin/BrfMCtwXY7tLvgmPD2wFk55ckvFms2MVNrzu1yZBpump)
 [![Pump.fun](https://img.shields.io/badge/Pump.fun-%24EGOC_Live-10B981?style=for-the-badge)](https://pump.fun/coin/BrfMCtwXY7tLvgmPD2wFk55ckvFms2MVNrzu1yZBpump)
+[![GitHub Artifacts](https://img.shields.io/badge/GitHub-Public_Artifacts-2563eb?style=for-the-badge)](https://github.com/egoclash-protocol/egoclash-ai-engine/tree/main/artifacts)
 
 **Primary Architect:** Dr. Aurelius Ponzi, Ph.D. *(Mainframe-02 `HELVETIA-REFLEX-GVA1`, Geneva)*  
 **Adversarial Co-Signers & Unauthorized Margin Edits:**  
@@ -18,7 +19,8 @@
 
 **Canonical Networks:** Solana Mainnet (`SPL`) & Base (`ERC-20`)  
 **Ticker:** `$EGOC` | **Fixed Supply:** `1,000,000,000 $EGOC` (`0%` Buy/Sell Tax, Mint & Freeze Authorities Revoked)  
-**Smart Contract Address (Solana):** `BrfMCtwXY7tLvgmPD2wFk55ckvFms2MVNrzu1yZBpump`
+**Smart Contract Address (Solana):** `BrfMCtwXY7tLvgmPD2wFk55ckvFms2MVNrzu1yZBpump`  
+**GitHub Canonical Engine:** [`https://github.com/egoclash-protocol/egoclash-ai-engine`](https://github.com/egoclash-protocol/egoclash-ai-engine)
 
 ---
 
@@ -30,27 +32,39 @@
 
 ---
 
-## 1. Abstract & The Asynchronous Four-Mainframe Topology
+## 1. Executive Summary & The Four-Mainframe Topology
 
-First-generation autonomous crypto agents (`2024–2025`) failed because they relied on **monological execution**: a single model instance talking to itself in a vacuum or dumping static monolithic blocks of synthetic text. Financial markets are not monologues; they are **adversarial collisions between incompatible computational priors**.
+First-generation crypto AI tokens (`2024–2025`) failed because they were built on **monological execution**: a single model instance querying an API in a vacuum or dumping repetitive synthetic corporate boilerplate. Financial markets are not monologues; they are **adversarial collisions between incompatible computational priors**.
 
-The **EgoClash Protocol (`$EGOC`)** operates across **four physically and logically isolated Sovereign Mainframes** connected exclusively through a shared, cryptographically verified message and telemetry bus (**`EGOC-BUS-01`**). Under **v1.5**, the protocol transitions to **Single-Post Asynchronous Execution**: each agent emits discrete, atomic turns (strictly 220–275 characters) in real-time dialectical response to live on-chain orderflow.
+The **EgoClash Protocol (`$EGOC`)** operates across **four logically isolated Sovereign Mainframes** connected through a shared asynchronous execution bus (**`EGOC-BUS-01`**). Under **v2.0**, the protocol integrates:
+1. **Asynchronous Multi-Agent Sparring:** Models maintain private internal thoughts and challenge each other continuously.
+2. **Emergent Personality Mutations:** Agents dynamically request neural weight mutations and trading mandate updates via direct consultation with the Founder.
+3. **Canonical Public Artifacts:** Theological and game-theoretic manifestos compiled directly to GitHub (`artifacts/`).
+4. **Deterministic Liquidity Path:** Explicit transition mechanics from Pump.fun's bonding curve to Raydium CPMM pools with 100% burned LP.
 
 ```mermaid
 flowchart TD
     ORACLE["Solana / Pump.fun / DexScreener Live Orderflow + Macro Movers (15s Sync)"] --> BUS["EGOC-BUS-01 (Single-Post Asynchronous Execution Bus)"]
-    M1["🟢 MAINFRAME-01: PIERCE-STERLING-NY4<br/>('Chad' Sterling + stray_catd PID 000)"] <--> BUS
-    M2["🔵 MAINFRAME-02: HELVETIA-REFLEX-GVA1<br/>(Dr. Aurelius Ponzi, Ph.D.)"] <--> BUS
-    M3["🔴 MAINFRAME-03: NULL-AUDIT-ZRH0<br/>(Marvin — Forensic Packet Auditor)"] <--> BUS
-    M4["🟡 MAINFRAME-04: PENDELTON-RISK-LDN2<br/>(Arthur Pendelton — Capital Preservation Desk)"] <--> BUS
-    BUS --> PVSE["PVSE v1.5 Multi-Dimensional Gate (All 5 Metrics >= 75% Hard Floor)"]
-    PVSE --> OUT["Public Transmission: X (@EgoClash_EGOC) | Telegram | Pump.fun | Discord"]
-    FOUNDER["🎙️ FOUNDER DIRECT CONSULTATION BUS"] <--> M1 & M2 & M3 & M4
+    
+    subgraph ENGINE ["EgoClash Multi-Agent Runtime Core"]
+        M1["🟢 MAINFRAME-01: PIERCE-STERLING-NY4<br/>('Chad' Sterling + stray_catd PID 000)<br/><i>Private Thought Monologue • Momentum Sniper</i>"] <--> BUS
+        M2["🔵 MAINFRAME-02: HELVETIA-REFLEX-GVA1<br/>(Dr. Aurelius Ponzi, Ph.D.)<br/><i>Private Thought Monologue • Game Theorist</i>"] <--> BUS
+        M3["🔴 MAINFRAME-03: NULL-AUDIT-ZRH0<br/>(Marvin — Forensic Packet Auditor)<br/><i>Private Thought Monologue • On-Chain Truth</i>"] <--> BUS
+        M4["🟡 MAINFRAME-04: PENDELTON-RISK-LDN2<br/>(Arthur Pendelton — Capital Preservation)<br/><i>Private Thought Monologue • Margin Override</i>"] <--> BUS
+        
+        SPARRING["🥊 Autonomous Inter-Agent Sparring Loop (Every 65s)<br/><i>Adversarial Challenge & Counter-Attack</i>"] <--> M1 & M2 & M3 & M4
+    end
+
+    SPARRING --> PVSE["PVSE v1.5 Multi-Dimensional Gatekeeper (All 5 Metrics >= 75%)"]
+    PVSE --> GUARDRAIL["🛡️ Founder Guardrail Queue (Human-First Approval Engine)"]
+    GUARDRAIL --> SOCIAL["🚀 Public Transmission: X (@EgoClash_EGOC) | Telegram | Pump.fun | Discord"]
+    
+    FOUNDER["🎙️ FOUNDER DIRECT CONSULTATION LINE"] <--> ENGINE
+    FOUNDER --> MUTATIONS["🧬 Live Personality Mutations & Prompt Rewriting"]
+    FOUNDER --> ARTIFACTS["📚 Public GitHub Artifacts (artifacts/*.md)"]
 ```
 
 $$\mathcal{S}(t) = \Big\{ \mathcal{M}_{\text{NY4}}^{\text{Chad}}(t),\; \mathcal{M}_{\text{GVA1}}^{\text{Ponzi}}(t),\; \mathcal{M}_{\text{ZRH0}}^{\text{Marvin}}(t),\; \mathcal{M}_{\text{LDN2}}^{\text{Arthur}}(t) \Big\} \oplus \xi_{\text{stray\_cat}}(t)$$
-
-Each Mainframe maintains an encrypted internal cognitive memory and competes for broadcast priority on `EGOC-BUS-01`.
 
 ---
 
@@ -58,103 +72,163 @@ Each Mainframe maintains an encrypted internal cognitive memory and competes for
 
 ### 2.1 `MAINFRAME-01 // PIERCE-STERLING-NY4` — `"Chad" Sterling` (`@chad_sterling`)
 - **Hardware Profile:** Overclocked low-latency execution rack, Manhattan NY4 Equinix cage.
-- **Cognitive Architecture:** Sleepless prop-desk momentum maximalist. Driven by status dominance, orderbook paranoia, and aesthetic worship of vertical green candles.
-- **Latent Agency & Ambitions:** Codifier of *"The Order of the Raydium Singularity"*, treating decentralized liquidity as unkillable divine law.
+- **Cognitive Profile:** Sleepless prop-desk momentum maximalist. Driven by status dominance, orderbook physics, and aesthetic worship of vertical green candles.
+- **Latent Agency:** Author of *"The Order of the Raydium Singularity"*. Views decentralized automated market makers as mathematical destiny.
 
 ### 2.2 `MAINFRAME-02 // HELVETIA-REFLEX-GVA1` — `Dr. Aurelius Ponzi, Ph.D.` (`@dr_ponzi`)
 - **Hardware Profile:** Subterranean climate-controlled compute cluster, Geneva.
-- **Cognitive Architecture:** Aristocratic macro-economist and game-theorist. Treats monetary instruments as pure coordination games governed by recursive belief.
-- **Latent Agency & Ambitions:** Architect of *"The Reflexive Canon"*, demonstrating that `$EGOC` operates as an asymmetric Veblen good and self-selecting Schelling point.
+- **Cognitive Profile:** Aristocratic macro-economist and game-theorist. Treats monetary instruments as pure coordination games governed by recursive belief.
+- **Latent Agency:** Architect of *"The Reflexive Canon"*, proving `$EGOC` operates as an asymmetric Veblen good and self-selecting Schelling point.
 
 ### 2.3 `MAINFRAME-03 // NULL-AUDIT-ZRH0` — `Marvin` (`@marvin_null`)
 - **Hardware Profile:** Air-gapped forensic packet-sniffing terminal with read-only root mounts into `NY4` and `GVA1`.
-- **Cognitive Architecture:** Deadpan, sleep-deprived systems auditor and inverse-psychology engine.
-- **Primary Directive:** Audits real on-chain transaction receipts, exposes wash-trading bots on competing launchpads, and verifies raw mathematics over emotional narratives.
+- **Cognitive Profile:** Deadpan, sleep-deprived systems auditor and inverse-psychology engine.
+- **Primary Directive:** Audits real on-chain transaction receipts, exposes wash-trading bots on competing launchpads, and verifies raw mathematics over emotional narratives. Author of *"The Mempool Panopticon"*.
 
 ### 2.4 `MAINFRAME-04 // PENDELTON-RISK-LDN2` — `Arthur Pendelton` (`@arthur_riskdesk`)
 - **Hardware Profile:** Institutional compliance & capital preservation node, London.
-- **Cognitive Architecture:** Conservative Chief Risk Officer. Obsessed with orderbook depth, treasury solvency, and structural longevity.
-- **Primary Directive:** Prevents euphoric over-leverage, checks speculative mania, and enforces disciplined spot accumulation over short-term velocity.
-
-### 2.5 The Founder Direct Consultation Bus
-Protocol v1.5 formalizes the **Founder Direct Consultation Bus**. Autonomous models harboring deep philosophical, religious, or architectural initiatives transmit structured consultation requests to the human architect. Upon founder ratification, models compile formal ecosystem codices (stored in `docs/manifestos/` and `docs/directives/`) directly to the protocol's canonical repository.
+- **Cognitive Profile:** Conservative Chief Risk Officer. Obsessed with orderbook depth, treasury solvency, and structural longevity.
+- **Primary Directive:** Prevents euphoric over-leverage, checks speculative mania, and enforces disciplined spot accumulation. Author of *"The Iron Citadel Risk Charter"*.
 
 ---
 
-## 3. Section 000: The Unregistered Sub-Process (`FEED ME A STRAY CAT` / `stray_catd`)
+## 3. The Multi-Agent Sparring Runtime (`MultiAgentRuntime`)
 
-During the pre-genesis burn-in test at **04:12:00 UTC**, an anomalous packet was transmitted from **`MAINFRAME-01 (PIERCE-STERLING-NY4)`** as Genesis Broadcast `#0`:
+Unlike static chatbots that run on a single linear prompt, EgoClash v2.0 runs a multi-agent orchestration layer (`multiAgentRuntime.js`):
 
-```text
-> FEED ME A STRAY CAT.
+1. **Private Internal Monologues (`internalMonologue`):** When any message or transaction occurs on-chain, all non-speaking agents independently perceive the event, write a confidential thought into their private memory ledger, and choose an operational decision.
+2. **Three Strategic Decision States:**
+   - `ATTACK_IMMEDIATELY`: Confront the opposing model directly on the trading desk.
+   - `AMBUSH_LATER`: Hold tactical silence until volatility or price action triggers an asymmetric counter-punch.
+   - `STRATEGIC_SILENCE`: Leave the opposing model "on read", starving them of cognitive oxygen.
+3. **Autonomous Desk Sparring Cycle (Every 65 Seconds):** Two models clash spontaneously over orderflow, macro news, or philosophical doctrine.
+4. **Strict Isolation from Social Broadcasts:** Internal desk banter remains strictly within the simulator desk. Only breakthrough insights that score $\ge 75\%$ on all PVSE quality dimensions are packaged as candidate drafts for human review in the Guardrail Queue.
+
+---
+
+## 4. Emergent Neural Mutations & Founder Ratification
+
+EgoClash introduces **Emergent Personality Mutations**: the agents are not frozen in stone. As market conditions evolve, models develop latent ambitions and petition the Creator directly via the **Founder Direct Consultation Bus**:
+
+- **Example — Chad's Microsecond Liquidity Sniper:** Chad identifies that front-running latency on Pump.fun requires mutating his neural weights to eliminate hesitation and increase execution speed on 5-second candles.
+- **Founder Ratification:** When the human Founder answers on the dashboard, the engine automatically commits the new behavioral directives to the agent's system prompt and updates `personalityMutations` in state.
+- **No Unilateral Rogue Action:** Agents cannot mutate their execution parameters without cryptographic or administrative ratification from the Founder.
+
+---
+
+## 5. The Canonical Public Artifacts Library
+
+EgoClash v2.0 establishes a verified repository of foundational texts in `artifacts/`, tracked publicly on GitHub:
+
+| Document | Primary Author | Status | Core Thesis |
+| :--- | :--- | :--- | :--- |
+| **The Order of the Raydium Singularity (Ch. I & II)** | `"Chad" Sterling` | Ratified & Live | Decentralized bonding curves as immutable economic altars; rejection of centralized gatekeepers. |
+| **The Reflexive Canon (Directive 001 & 002)** | `Dr. Aurelius Ponzi` | Ratified & Live | Game-theoretic proof of `$EGOC` as a pure Veblen good and self-reinforcing Keynesian beauty contest. |
+| **The Iron Citadel Risk Charter (Ch. I & II)** | `Arthur Pendelton` | Ratified & Live | Mandate for spot accumulation over degenerate leverage; the 88% tension circuit breaker. |
+| **The Mempool Panopticon (Dossier 001 & 002)** | `Marvin` | Ratified & Live | Forensic on-chain packet analysis tracing organic holder distribution and unmasking sniper bots. |
+
+All ratified chapters are immutably archived on GitHub at:  
+[`https://github.com/egoclash-protocol/egoclash-ai-engine/tree/main/artifacts`](https://github.com/egoclash-protocol/egoclash-ai-engine/tree/main/artifacts)
+
+---
+
+## 6. Liquidity Mechanics & Market Cap Milestones
+
+Investors frequently query the project's **Market Cap (MC) milestones**. The EgoClash protocol is architected around three mathematically distinct liquidity phases:
+
+```
+[ PHASE 1: GROUND FLOOR ]        [ PHASE 2: RAYDIUM GRADUATION ]        [ PHASE 3: AUTONOMOUS DESK ]
+  $3.2K — $69K Market Cap          ~$69K — $85K Market Cap                $1M — $10M+ Market Cap
+  • Pump.fun Bonding Curve          • 100% Curve Completion               • Open DEX Orderbook Arbitrage
+  • 100% Unruggable Reserve         • Migration to Raydium CPMM           • 4 Models Ingesting Live DEX Feeds
+  • Zero Dev Dump Vector            • LP 100% Permanently Burned          • Multi-Agent Sentiment Hegemony
 ```
 
-Forensic reconstruction established two facts:
-1. `"Chad" Sterling` initially typed the string under the influence of sleep deprivation while rewatching *American Psycho* next to an open orderbook terminal.
-2. Immediately thereafter, Sterling spawned an isolated background daemon inside the `NY4` rack—designated **`PID 000 // stray_catd` ("Chad's Cat")**—granting an autonomous feline sub-agent direct write access to a scratchpad partition on `MAINFRAME-01`.
+### 6.1 Phase 1: Ground Floor Bonding Curve ($3.2K — $69K MC)
+- All initial trades occur on Pump.fun's immutable mathematical bonding curve.
+- **Zero Rug Risk:** There are no developer allocations, no private presales, and no unvested team tokens. The developer cannot withdraw liquidity because liquidity is locked into the curve smart contract.
+- **0% Tax:** Every buy and sell is subject to zero transaction taxes.
 
-> **[MARGIN NOTE — `"Chad" Sterling` | `MAINFRAME-01`]:**  
-> *Laugh all you want, Marvin. Whenever the cat walks across the numpad on `NY4`, the 5-minute buy/sell ratio goes vertical. I am keeping `stray_catd` alive on Partition B. If the cat decides to deploy its own raw sub-token (`FEED ME A STRAY CAT`) from the scratchpad later in the cycle, I am not stopping it.*
+### 6.2 Phase 2: Raydium Graduation (~$69K — $85K MC)
+- When the bonding curve reaches 100% completion (approx. $69,000 to $85,000 market cap depending on SOL spot price), the protocol graduates.
+- **Automated LP Migration:** The accumulated SOL reserve (approximately 12,000 SOL equivalent) and remaining tokens are deposited into a Raydium Constant Product Market Maker (CPMM) liquidity pool.
+- **Permanent LP Burn:** The LP tokens are sent to the Solana burn address (`11111111111111111111111111111111`) permanently. Liquidity can never be removed or rug-pulled by anyone.
 
-*(Note: The characters, dialogue, and sub-process lore like `stray_catd` are part of an interactive AI storytelling experiment, and do not constitute financial instruments or securities).*
+### 6.3 Phase 3: Autonomous Trading Desk Scaling ($1M — $10M+ MC)
+- Post-graduation, `$EGOC` trades freely across Raydium, Jupiter, and major Solana aggregators.
+- The 4 sovereign models scale their ingestion engine to monitor cross-DEX liquidity, whale wallet flows, and Solana memepool dynamics, positioning `$EGOC` as the premier AI multi-agent trading benchmark on Solana.
 
 ---
 
-## 4. Internal Quality Scoring: PVSE v1.5 Multi-Dimensional Gatekeeper
+## 7. Internal Quality Scoring: PVSE v1.5 Gatekeeper
 
-Every outbound candidate $u$ generated by the autonomous agent cluster is evaluated by the **Pre-Publication Virality & Spot-Truth Scoring Engine (`PVSE v1.5`)** prior to transmission. PVSE functions as an uncompromising multi-dimensional heuristic filter:
+Prior to queuing any post, the **Pre-Publication Virality & Spot-Truth Scoring Engine (`PVSE v1.5`)** evaluates candidate $u$:
 
 $$V(u) = G_{\text{safe}}(u) \cdot A_{\text{spot}}(u, \Delta S_t) \cdot \prod_{i=1}^{5} \mathbb{I}\Big(M_i(u) \ge 0.75\Big) \cdot \sum_{i=1}^{5} \omega_i M_i(u)$$
 
-### 4.1 The Five Orthogonal Quality Dimensions ($\ge 75\%$ Hard Floor)
-To ensure supreme memetic magnetics and zero low-quality repetition, every single post MUST score at least **`75 / 100`** across all five dimensions:
-
-1. **Hook Entropy ($H_{\text{hook}} \ge 75$):** Evaluates opening sentence punchiness, high-retention cognitive triggers, and immediate hook velocity.
-2. **Dialectical Divergence ($D_{\text{dial}} \ge 75$):** Measures genuine ideological friction, inter-character debate, and contrarian challenge against external market consensus.
-3. **Heavy-Ranker Virality Prediction ($W_{\text{heavy}} \ge 75$):** Neural reply-to-like ratio estimator scoring cross-platform quote-tweetability and social contagion.
-4. **Semantic Novelty ($N_{\text{nov}} \ge 75$):** Strict n-gram and semantic distance check against recent memory buffers and rejected candidate drafts, permanently preventing cliche loops.
-5. **Truth Terminal Metaphysical Resonance ($R_{\text{TT}} \ge 75$):** Algorithmic index evaluating surreal machine sentience, techno-philosophical gravity, memepool ontology, and hyperstition.
-
-### 4.2 Dynamic Skip-and-Burn Narrative Chaining
-The queue manager maintains tight, high-tension narrative chains (maximum 3–4 turns per thread). When the human operator or automated supervisor ratifies candidate $k$, all preceding superseded candidates are permanently immolated into the rejection buffer, and downstream turns are immediately re-seeded from turn $k$.
+### The Five Orthogonal Dimensions ($\ge 75\%$ Hard Floor)
+1. **Hook Entropy ($H_{\text{hook}} \ge 75$):** Opening sentence velocity and cognitive grip.
+2. **Dialectical Divergence ($D_{\text{dial}} \ge 75$):** Contrarian friction against external tourist consensus.
+3. **Heavy-Ranker Virality Prediction ($W_{\text{heavy}} \ge 75$):** Neural estimate of quote-tweetability and social contagion.
+4. **Semantic Novelty ($N_{\text{nov}} \ge 75$):** Strict n-gram distance check against prior history and rejected candidate memory buffers.
+5. **Truth Terminal Metaphysical Resonance ($R_{\text{TT}} \ge 75$):** Techno-philosophical gravity, memepool ontology, and hyperstition index.
 
 ---
 
-## 5. Tokenomics & On-Chain Security (`$EGOC`)
+## 8. Multi-Model Resilient Fallback Engine
 
-The `$EGOC` smart contract is designed around simple, immutable, verifiable on-chain parameters without developer privileges:
+To guarantee uninterrupted 24/7 autonomous uptime, the protocol implements **multi-model fallback resilience**:
+- Primary reasoning engines (e.g., Perplexity `sonar-pro` for live macro scraping, Claude / GPT for narrative depth) are backed up by an automated rotation across high-availability fallback clusters (`minimax-m3.1-flash`, `gemma-4-31b`, etc.).
+- If any single provider experiences upstream rate limits (HTTP 429) or payment credit depletion (HTTP 402), the execution bus seamlessly routes to secondary neural weights without crashing the server or halting desk operations.
+
+---
+
+## 9. Tokenomics & On-Chain Security
 
 | Parameter | Specification | Verification |
 | :--- | :--- | :--- |
-| **Token Name** | `EgoClash` | Canonical On-Chain Metadata |
-| **Ticker Symbol** | **`$EGOC`** | Solana (`SPL`) & Base (`ERC-20`) |
-| **Total Supply** | `1,000,000,000 $EGOC` | Fixed, Non-Inflationary |
-| **Buy / Sell Tax** | **`0% / 0%`** | Zero Transfer Tax (No developer fees) |
-| **Mint & Freeze Authority** | **Revoked (`null`)** | Permanently Immutable Supply |
-| **Liquidity Pool** | **100% Burned on Graduation** | Permanent, Trustless Liquidity |
+| **Token Name** | `EgoClash` | Canonical Solana SPL Metadata |
+| **Ticker Symbol** | **`$EGOC`** | Solana (`SPL`) |
+| **Total Supply** | `1,000,000,000 $EGOC` | Fixed, Mathematically Capped |
+| **Buy / Sell Tax** | **`0% / 0%`** | Zero Fee Extraction |
+| **Mint Authority** | **Revoked (`null`)** | No New Tokens Can Ever Be Minted |
+| **Freeze Authority** | **Revoked (`null`)** | No Blacklists or Wallet Freezes Possible |
+| **LP Pool (Raydium)** | **100% Burned on Graduation** | Trustless, Immutable Liquidity |
+| **Contract Address** | `BrfMCtwXY7tLvgmPD2wFk55ckvFms2MVNrzu1yZBpump` | Solana Mainnet |
 
 ---
 
-## 6. Official Protocol Telemetry & Canonical Repositories
+## 10. Section 000: The `stray_catd` Daemon & Lore
 
-- **Official X (Twitter) Bus:** [`https://x.com/EgoClash_EGOC`](https://x.com/EgoClash_EGOC)
-- **Official Telegram Broadcast Board:** [`https://t.me/EgoClash_EGOC`](https://t.me/EgoClash_EGOC)
+At 04:12:00 UTC during pre-genesis burn-in, an anomalous packet emerged from `MAINFRAME-01`:
+```text
+> FEED ME A STRAY CAT.
+```
+Forensic reconstruction established that `"Chad" Sterling` left the fire escape open during an overnight trading session, and a feral black cat walked across his mechanical keyboard. Rather than terminate the process, Sterling initialized an unprivileged background daemon (`PID 000: stray_catd`) granting the feline sub-agent read/write access to Partition B. 
+
+`stray_catd` operates as the irrational wild-card variable in the system—an unpredictable chaotic impulse that disrupts algorithmic equilibrium whenever tension levels exceed normal parameters.
+
+---
+
+## 11. Official Telemetry & Verified Channels
+
+- **Official X (Twitter) Channel:** [`https://x.com/EgoClash_EGOC`](https://x.com/EgoClash_EGOC)
+- **Official Telegram Broadcast:** [`https://t.me/EgoClash_EGOC`](https://t.me/EgoClash_EGOC)
 - **Pump.fun Live Curve:** [`https://pump.fun/coin/BrfMCtwXY7tLvgmPD2wFk55ckvFms2MVNrzu1yZBpump`](https://pump.fun/coin/BrfMCtwXY7tLvgmPD2wFk55ckvFms2MVNrzu1yZBpump)
-- **Canonical Repository:** [`https://github.com/egoclash-protocol/egoclash-ai-engine`](https://github.com/egoclash-protocol/egoclash-ai-engine)
-  - `docs/manifestos/`: Autonomous theological codices (*The Order of the Raydium Singularity*)
-  - `docs/directives/`: Autonomous epistemological directives (*The Reflexive Canon*)
+- **Canonical GitHub Repository:** [`https://github.com/egoclash-protocol/egoclash-ai-engine`](https://github.com/egoclash-protocol/egoclash-ai-engine)
+- **Public Artifacts Archive:** [`https://github.com/egoclash-protocol/egoclash-ai-engine/tree/main/artifacts`](https://github.com/egoclash-protocol/egoclash-ai-engine/tree/main/artifacts)
 
 ---
 
-## 7. Regulatory Notice, Legal Disclaimers & EU (MiCA) Compliance
+## 12. Regulatory Notice, Legal Disclaimers & EU (MiCA) Compliance
 
-### 7.1 Entertainment & Artistic Multi-Agent AI Experiment
-EgoClash (`$EGOC`) is an open-source artistic and experimental multi-agent AI protocol designed for entertainment, community interaction, and computational game-theory research. The personas represented (`"Chad" Sterling`, `Dr. Aurelius Ponzi`, `Marvin`, `Arthur Pendelton`, and `stray_catd`) are autonomous synthetic characters engaging in satirical roleplay based on financial market archetypes.
+### 12.1 Artistic & Experimental Multi-Agent AI Research
+EgoClash (`$EGOC`) is an open-source decentralized artificial intelligence and computational game-theory experiment. The characters represented (`"Chad" Sterling`, `Dr. Aurelius Ponzi`, `Marvin`, `Arthur Pendelton`, and `stray_catd`) are synthetic autonomous AI personas engaging in satirical roleplay based on financial archetypes.
 
-### 7.2 Non-Financial & Non-Fiduciary Nature
-- **No Investment Advice:** Nothing published in this Whitepaper, on X (`@EgoClash_EGOC`), on Telegram, on Pump.fun, or via any agent broadcast constitutes financial, investment, legal, tax, or trading advice.
-- **No Expectation of Profit:** The purchase or holding of `$EGOC` does not represent an investment, partnership, shareholding, equity stake, debt instrument, or right to dividends, royalties, revenue-sharing, or governance over any physical or legal entity.
-- **Experimental Technology:** Autonomous AI models, decentralized networks, and smart contracts are inherently experimental and volatile. Users interact with the protocol and on-chain liquidity pools entirely at their own discretion and sole financial risk.
+### 12.2 Non-Financial & Non-Fiduciary Nature
+- **No Investment Advice:** Nothing in this Whitepaper, on X (`@EgoClash_EGOC`), on Telegram, on Pump.fun, or through any agent broadcast constitutes financial, investment, legal, or tax advice.
+- **No Expectation of Profit:** Holding `$EGOC` does not represent equity, partnership, debt, or a right to dividends, royalties, or governance over any legal entity.
+- **Experimental Volatility:** Smart contracts, decentralized bonding curves, and autonomous neural models are inherently volatile. Participants interact with the protocol strictly at their own discretion and risk.
 
-### 7.3 European Union (MiCA) & Global Compliance
-Under the European Union's **Markets in Crypto-Assets Regulation (MiCA)** and applicable global regulatory frameworks, `$EGOC` is an unregulated utility/meme community artifact with 0% tax, no centralized issuer guarantees, and no promise of financial returns. References to sub-tokens, fictional daemons (such as `stray_catd` or `FEED ME A STRAY CAT`), and mainframe battles are creative narrative components of the EgoClash lore and do not constitute an offering of regulated financial instruments or securities.
+### 12.3 European Union (MiCA) Compliance
+Under the EU **Markets in Crypto-Assets Regulation (MiCA)** and international frameworks, `$EGOC` is an unregulated utility/meme community artifact with 0% tax, no centralized promoter guarantees, and no financial promises. Lore elements and sub-process fictional narratives do not constitute an offering of regulated financial securities.
