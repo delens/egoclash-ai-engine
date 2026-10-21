@@ -137,26 +137,26 @@ All ratified chapters are immutably archived on GitHub at:
 Investors frequently query the project's **Market Cap (MC) milestones**. The EgoClash protocol is architected around three mathematically distinct liquidity phases:
 
 ```
-[ PHASE 1: GROUND FLOOR ]        [ PHASE 2: RAYDIUM GRADUATION ]        [ PHASE 3: AUTONOMOUS DESK ]
-  $3.2K — $69K Market Cap          ~$69K — $85K Market Cap                $1M — $10M+ Market Cap
-  • Pump.fun Bonding Curve          • 100% Curve Completion               • Open DEX Orderbook Arbitrage
-  • 100% Unruggable Reserve         • Migration to Raydium CPMM           • 4 Models Ingesting Live DEX Feeds
-  • Zero Dev Dump Vector            • LP 100% Permanently Burned          • Multi-Agent Sentiment Hegemony
+[ PHASE 1: GROUND FLOOR ]        [ PHASE 2: PUMPSWAP / RAYDIUM GRADUATION ]   [ PHASE 3: AUTONOMOUS DESK ]
+  $3.2K — $69K Market Cap          ~$69K — $85K Market Cap                      $1M — $10M+ Market Cap
+  • Pump.fun Bonding Curve          • 100% Curve Completion (~85 SOL)            • Open DEX Orderbook Arbitrage
+  • 100% Unruggable Reserve         • Migration to PumpSwap / Raydium AMM        • 4 Models Ingesting Live DEX Feeds
+  • Transparent 3.46% Dev Buy       • LP 100% Permanently Burned                 • Multi-Agent Sentiment Hegemony
 ```
 
 ### 6.1 Phase 1: Ground Floor Bonding Curve ($3.2K — $69K MC)
 - All initial trades occur on Pump.fun's immutable mathematical bonding curve.
-- **Zero Rug Risk:** There are no developer allocations, no private presales, and no unvested team tokens. The developer cannot withdraw liquidity because liquidity is locked into the curve smart contract.
+- **Transparent Genesis:** The deployer executed an initial fair-launch buy of 3.46% on the open bonding curve at token creation (verifiable on-chain). There are zero team unlock vesting schedules, zero hidden team mints, and mint authority is permanently revoked.
 - **0% Tax:** Every buy and sell is subject to zero transaction taxes.
 
-### 6.2 Phase 2: Raydium Graduation (~$69K — $85K MC)
-- When the bonding curve reaches 100% completion (approx. $69,000 to $85,000 market cap depending on SOL spot price), the protocol graduates.
-- **Automated LP Migration:** The accumulated SOL reserve (approximately 12,000 SOL equivalent) and remaining tokens are deposited into a Raydium Constant Product Market Maker (CPMM) liquidity pool.
+### 6.2 Phase 2: PumpSwap / Raydium Graduation (~$69K — $85K MC)
+- When the bonding curve reaches 100% completion (accumulating approximately 85 SOL in curve reserves at ~$69,000 to $85,000 market cap depending on SOL spot price), the protocol graduates.
+- **Automated LP Migration:** The accumulated SOL reserve (~85 SOL) and remaining tokens are deposited into the PumpSwap / Raydium AMM liquidity pool.
 - **Permanent LP Burn:** The LP tokens are sent to the Solana burn address (`11111111111111111111111111111111`) permanently. Liquidity can never be removed or rug-pulled by anyone.
 
 ### 6.3 Phase 3: Autonomous Trading Desk Scaling ($1M — $10M+ MC)
-- Post-graduation, `$EGOC` trades freely across Raydium, Jupiter, and major Solana aggregators.
-- The 4 sovereign models scale their ingestion engine to monitor cross-DEX liquidity, whale wallet flows, and Solana memepool dynamics, positioning `$EGOC` as the premier AI multi-agent trading benchmark on Solana.
+- Post-graduation, `$EGOC` trades freely across PumpSwap, Raydium, Jupiter, and major Solana aggregators.
+- The 4 sovereign models scale their ingestion engine to monitor cross-DEX liquidity, whale wallet flows, and Solana mempool dynamics, positioning `$EGOC` as the premier AI multi-agent trading benchmark on Solana.
 
 ---
 
