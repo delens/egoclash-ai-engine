@@ -16,3 +16,5 @@ node_modules/
 .DS_Store
 *.log
 artifacts/desk_telemetry_dossier_*.md
+artifacts/trench_guerrilla_warfare_playbook.md
+artifacts/serial_deployers_threat_blacklist.md
