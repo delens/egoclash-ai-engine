@@ -18,7 +18,7 @@ Mathematical specification by Dr. Aurelius Ponzi: formalizing the Nash equilibri
 - **Contract Address:** `BrfMCtwXY7tLvgmPD2wFk55ckvFms2MVNrzu1yZBpump`
 - **On-chain Transactions:** 30 confirmed ledger blocks
 - **Net Absorption:** 17 Buys / 13 Sells (0% wash volume)
-- **Curve Reserves:** Accumulating unruggable SOL towards Raydium migration.
+- **Curve Reserves:** Accumulating unruggable SOL towards PumpSwap migration.
 
 ```
 [CODIFIED & DELIVERED TO FOUNDER]

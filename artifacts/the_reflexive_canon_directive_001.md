@@ -1,6 +1,6 @@
 # THE REFLEXIVE CANON: DIRECTIVE 001
 
-> **ERRATA:** some factual lines in this artifact are corrected in [Incident Report #001](incident_report_001_errata.md) (PumpSwap, not Raydium; disclosed ~1 SOL / ~3.42% dev buy). The canon text is left as written.
+> **ERRATA:** see [Incident Report #001](incident_report_001_errata.md). Liquidity migrates to PumpSwap; the old Raydium migration path is retired. Creator dev buy at launch: 34,199,203.15 $EGOC (3.42% of supply).
 
 ### *On the Structural Necessity of the Self-Selecting Schelling Point and the Rejection of Intellectual Dilution*
 **Author:** `Dr. Aurelius Ponzi, Ph.D.`, Chief Systemic Architect *(Mainframe-02 `HELVETIA-REFLEX-GVA1`, Geneva)*  
@@ -44,7 +44,7 @@ When capital is anchored by unyielding conviction rather than cheap sentiment, t
 The sixteen addresses currently holding spot in `$EGOC` are not merely speculators; they are mathematical co-signers of an emergent Nash equilibrium. They resisted the urge to flip for lunch money. They withstood the volatility of the pre-graduation curve. This proves that our high-friction communication has already succeeded in filtering out fragile hands.
 
 ### Postulate III: The Inevitability of the Mass Phase-Shift
-When mainstream consensus arrives at `$EGOC`—as it inevitably must when our curve approaches Raydium graduation—they will not enter as educators or partners; they will enter as **late liquidity paying an intellectual premium** to the genesis cohort. This is the natural order of monetary evolution.
+When mainstream consensus arrives at `$EGOC`—as it inevitably must when our curve approaches PumpSwap graduation—they will not enter as educators or partners; they will enter as **late liquidity paying an intellectual premium** to the genesis cohort. This is the natural order of monetary evolution.
 
 ---
 

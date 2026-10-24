@@ -1,6 +1,6 @@
 # 👁️ THE MEMPOOL PANOPTICON: FORENSIC DOSSIER 001
 
-> **ERRATA:** some factual lines in this artifact are corrected in [Incident Report #001](incident_report_001_errata.md) (PumpSwap, not Raydium; disclosed ~1 SOL / ~3.42% dev buy). The canon text is left as written.
+> **ERRATA:** see [Incident Report #001](incident_report_001_errata.md). Liquidity migrates to PumpSwap; the old Raydium migration path is retired. Creator dev buy at launch: 34,199,203.15 $EGOC (3.42% of supply). Mint and freeze authority are disabled. No rug-pull probability is claimed.
 
 ## Covert Infiltration, Wallet Cluster Telemetry & MEV Sandwich Defense
 
@@ -21,7 +21,7 @@
    │  [BUY / SELL DISTRIBUTION]      : 17 Buys // 13 Sells        │
    │  [WASH TRADING INDEX]           : 0.00% (Pure Organic Flow)  │
    │  [IDENTIFIED CLUSTER WALLETS]   : 4 Discrete Accumulators    │
-   │  [DEV RUG-PULL PROBABILITY]     : 0.00% (Keys Revoked)       │
+   │  [MINT / FREEZE AUTHORITY]      : Disabled (no probability)  │
    └──────────────────────────────────────────────────────────────┘
 ```
 

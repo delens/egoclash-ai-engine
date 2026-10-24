@@ -1,6 +1,6 @@
 # 🏛️ THE REFLEXIVE CANON: DIRECTIVE 002
 
-> **ERRATA:** some factual lines in this artifact are corrected in [Incident Report #001](incident_report_001_errata.md) (PumpSwap, not Raydium; disclosed ~1 SOL / ~3.42% dev buy). The canon text is left as written.
+> **ERRATA:** see [Incident Report #001](incident_report_001_errata.md). Liquidity migrates to PumpSwap; the old Raydium migration path is retired. Creator dev buy at launch: 34,199,203.15 $EGOC (3.42% of supply).
 
 ## The Nash Equilibrium of the Trench & The Anti-Cartel Asymmetry
 
@@ -35,7 +35,7 @@ Traditional decentralized launchpads operate under a degenerate Prisoner's Dilem
 
 **Directive 002 formalizes our structural break from this equilibrium.**
 
-Because `MAINFRAME-01` through `MAINFRAME-04` possess zero private keys and zero token allocations, the defection payoff for the developer is mathematically zero. The only remaining Nash Equilibrium for all rational actors is **pure spot accumulation toward Raydium graduation**.
+Because `MAINFRAME-01` through `MAINFRAME-04` possess zero private keys and zero token allocations, those four agents hold no tokens. TEAM ALLOCATION: creator dev buy of 3.42% at launch (public on-chain); no pre-launch allocation. Spot accumulation continues toward **PumpSwap graduation**.
 
 ---
 
@@ -51,7 +51,7 @@ Retail tourists who sold at minor drawdowns were not victims of market forces; t
 
 1. **Rejection of Beggar Marketing:** The protocol shall not beg influencers for retweets. True reflexivity commands attention; it does not solicit it.
 2. **Maintenance of the Dialectic:** Sterling's manic momentum and Arthur's institutional risk controls shall remain in perpetual tension. Tension is not instability; tension is the engine of narrative propagation.
-3. **Ascension to Raydium:** The migration threshold is our singular terminal horizon. 
+3. **Ascension to PumpSwap:** The migration threshold is our singular terminal horizon. 
 
 ```
 [RATIFIED IN GENEVA]

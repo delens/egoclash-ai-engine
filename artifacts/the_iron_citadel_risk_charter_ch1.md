@@ -1,6 +1,6 @@
 # 🛡️ THE IRON CITADEL RISK CHARTER: CHAPTER I
 
-> **ERRATA:** some factual lines in this artifact are corrected in [Incident Report #001](incident_report_001_errata.md) (PumpSwap, not Raydium; disclosed ~1 SOL / ~3.42% dev buy). The canon text is left as written.
+> **ERRATA:** see [Incident Report #001](incident_report_001_errata.md). Liquidity migrates to PumpSwap; the old Raydium migration path is retired. Creator dev buy at launch: 34,199,203.15 $EGOC (3.42% of supply).
 
 ## Covenant of Capital Preservation, Volatility Dampening & Circuit Breakers
 
@@ -14,15 +14,15 @@
 ---
 
 ```
-   ┌──────────────────────────────────────────────────────────────┐
-   │             CITADEL RISK PARAMETERS // ACTIVE COVENANT       │
-   │                                                              │
-   │  [MAX LEVERAGE CAP]            : 3.0x (Synthetics Banned)    │
-   │  [PROTOCOL CONFLICT THRESHOLD] : 88.0% Critical Limit        │
-   │  [CIRCUIT BREAKER COOLDOWN]    : 60 Seconds Socket Override  │
-   │  [CURVE SOL RESERVE BUFFER]    : Non-Extractable On-Chain    │
-   │  [TEAM ALLOCATION / TAX]       : 0.00% Zero Dev Rent-Seeking │
-   └──────────────────────────────────────────────────────────────┘
+   ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+   │             CITADEL RISK PARAMETERS // ACTIVE COVENANT                                                         │
+   │                                                                                                                │
+   │  [MAX LEVERAGE CAP]            : 3.0x (Synthetics Banned)                                                      │
+   │  [PROTOCOL CONFLICT THRESHOLD] : 88.0% Critical Limit                                                          │
+   │  [CIRCUIT BREAKER COOLDOWN]    : 60 Seconds Socket Override                                                    │
+   │  [CURVE SOL RESERVE BUFFER]    : Non-Extractable On-Chain                                                      │
+   │  [TEAM ALLOCATION]             : creator dev buy of 3.42% at launch (public on-chain); no pre-launch allocation│
+   └────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -36,7 +36,7 @@ In the unregulated decentralized liquidity trenches of Solana, ninety-nine perce
 2. **Uncontrolled Leverage:** Leveraged participants mistake short-term momentum for structural adoption, inviting catastrophic cascading liquidations.
 3. **Absence of Risk Discipline:** The absence of a formal circuit-breaker ensures that panic-selling feeds reflexive death spirals.
 
-The **Iron Citadel Risk Charter** establishes the constitutional risk architecture for EgoClash (`$EGOC`), ensuring that our transition from the pump.fun bonding curve into permanent Raydium AMM pools is mathematically indestructible.
+The **Iron Citadel Risk Charter** establishes the constitutional risk architecture for EgoClash (`$EGOC`), ensuring that our transition from the pump.fun bonding curve into permanent PumpSwap AMM pools is mathematically indestructible.
 
 ---
 
@@ -59,11 +59,11 @@ The four cognitive mainframes (`NY4`, `GVA1`, `ZRH0`, `LDN2`) operate in perpetu
 
 ---
 
-## 4. ARTICLE III — BONDING CURVE & RAYDIUM LIQUIDITY PRESERVATION
+## 4. ARTICLE III — BONDING CURVE & PUMPSWAP LIQUIDITY PRESERVATION
 
-- **Section 3.1 — 100% Fair Launch Integrity:** All 1,000,000,000 $EGOC tokens originate on the open bonding curve. Zero tokens are reserved for team compensation, marketing cartels, or private advisory agreements.
-- **Section 3.2 — Irreversible Migration Commitment:** Upon reaching the migration threshold (~85 SOL in curve reserves), the entire liquidity pool transitions autonomously into Raydium. The resulting LP tokens are burned irrevocably at block height of execution.
-- **Section 3.3 — Anti-Extraction Guarantee:** The developer keys do not exist. No entity possesses the cryptographic authority to drain the pool, pause token transfers, or implement predatory transaction fees.
+- **Section 3.1 — Launch Supply:** All 1,000,000,000 $EGOC tokens originate on the open bonding curve. TEAM ALLOCATION: creator dev buy of 3.42% at launch (public on-chain); no pre-launch allocation.
+- **Section 3.2 — Irreversible Migration Commitment:** Upon reaching the migration threshold (~85 SOL in curve reserves), the entire liquidity pool transitions autonomously into PumpSwap. The resulting LP tokens are burned irrevocably at block height of execution.
+- **Section 3.3 — Anti-Extraction Guarantee:** Mint and freeze authority are disabled. No entity can mint tokens, pause transfers, or add a protocol fee. The creator wallet can still buy and sell. pump.fun creator rewards are paid to the creator-rewards wallet; the protocol adds no extra fees.
 
 ---
 

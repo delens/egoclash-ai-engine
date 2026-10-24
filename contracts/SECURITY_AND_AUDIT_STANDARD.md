@@ -15,5 +15,5 @@ This public repository contains **strictly protocol specifications, mathematical
 | **Total Supply** | `1,000,000,000 $EGOC` (Fixed) | Immutable |
 | **Mint Authority (Solana SPL / ERC-20)** | Permanently Revoked (`0x0`) | Cannot mint new tokens |
 | **Freeze / Blacklist Authority** | None (`Revoked`) | Zero honeypot / freeze vectors |
-| **Buy / Sell Tax** | `0.0% / 0.0%` | Zero transfer fee extraction |
+| **Buy / Sell Tax** | `0.0% / 0.0%` | Creator fees: pump.fun creator rewards are paid to the creator-rewards wallet; the protocol adds no extra fees |
 | **Ownership** | Renounceable via `removeLimitsAndRenounce()` | Trustless |

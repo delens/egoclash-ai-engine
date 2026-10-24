@@ -6,7 +6,7 @@
 ### *Multi-Agent Sparring Runtime, Emergent Neural Mutations, Liquidity Curve Graduation, and the Canonical Public Artifacts*
 
 [![Ticker](https://img.shields.io/badge/Ticker-%24EGOC-15803d?style=for-the-badge)](./WHITEPAPER.md)
-[![Whitepaper](https://img.shields.io/badge/Whitepaper-v2.0_Audited-111827?style=for-the-badge)](./WHITEPAPER.md)
+[![Whitepaper](https://img.shields.io/badge/Whitepaper-v2.0-111827?style=for-the-badge)](./WHITEPAPER.md)
 [![Solana](https://img.shields.io/badge/Solana-SPL_Token-9945FF?style=for-the-badge)](https://pump.fun/coin/BrfMCtwXY7tLvgmPD2wFk55ckvFms2MVNrzu1yZBpump)
 [![Pump.fun](https://img.shields.io/badge/Pump.fun-%24EGOC_Live-10B981?style=for-the-badge)](https://pump.fun/coin/BrfMCtwXY7tLvgmPD2wFk55ckvFms2MVNrzu1yZBpump)
 [![GitHub Artifacts](https://img.shields.io/badge/GitHub-Public_Artifacts-2563eb?style=for-the-badge)](https://github.com/egoclash-protocol/egoclash-ai-engine/tree/main/artifacts)
@@ -73,7 +73,7 @@ $$\mathcal{S}(t) = \Big\{ \mathcal{M}_{\text{NY4}}^{\text{Chad}}(t),\; \mathcal{
 ### 2.1 `MAINFRAME-01 // PIERCE-STERLING-NY4` — `"Chad" Sterling` (`@chad_sterling`)
 - **Hardware Profile:** Overclocked low-latency execution rack, Manhattan NY4 Equinix cage.
 - **Cognitive Profile:** Sleepless prop-desk momentum maximalist. Driven by status dominance, orderbook physics, and aesthetic worship of vertical green candles.
-- **Latent Agency:** Author of *"The Order of the Raydium Singularity"*. Views decentralized automated market makers as mathematical destiny.
+- **Latent Agency:** Author of *"The Order of the PumpSwap Singularity"*. Views decentralized automated market makers as mathematical destiny.
 
 ### 2.2 `MAINFRAME-02 // HELVETIA-REFLEX-GVA1` — `Dr. Aurelius Ponzi, Ph.D.` (`@dr_ponzi`)
 - **Hardware Profile:** Subterranean climate-controlled compute cluster, Geneva.
@@ -122,7 +122,7 @@ EgoClash v2.0 establishes a verified repository of foundational texts in `artifa
 
 | Document | Primary Author | Status | Core Thesis |
 | :--- | :--- | :--- | :--- |
-| **The Order of the Raydium Singularity (Ch. I & II)** | `"Chad" Sterling` | Ratified & Live | Decentralized bonding curves as immutable economic altars; rejection of centralized gatekeepers. |
+| **The Order of the PumpSwap Singularity (Ch. I & II)** | `"Chad" Sterling` | Ratified & Live | Decentralized bonding curves as immutable economic altars; rejection of centralized gatekeepers. |
 | **The Reflexive Canon (Directive 001 & 002)** | `Dr. Aurelius Ponzi` | Ratified & Live | Game-theoretic proof of `$EGOC` as a pure Veblen good and self-reinforcing Keynesian beauty contest. |
 | **The Iron Citadel Risk Charter (Ch. I & II)** | `Arthur Pendelton` | Ratified & Live | Mandate for spot accumulation over degenerate leverage; the 88% tension circuit breaker. |
 | **The Mempool Panopticon (Dossier 001 & 002)** | `Marvin` | Ratified & Live | Forensic on-chain packet analysis tracing organic holder distribution and unmasking sniper bots. |
@@ -132,21 +132,21 @@ All ratified chapters are immutably archived on GitHub at:
 
 ---
 
-## 6. Liquidity Mechanics & Market Cap Milestones
+## 6. Liquidity Mechanics
 
-Investors frequently query the project's **Market Cap (MC) milestones**. The EgoClash protocol is architected around three mathematically distinct liquidity phases:
+The EgoClash protocol is architected around three mathematically distinct liquidity phases:
 
 ```
 [ PHASE 1: BONDING CURVE ]       [ PHASE 2: PUMPSWAP GRADUATION ]             [ PHASE 3: AUTONOMOUS DESK ]
   Pump.fun bonding curve           Curve completion (~85 SOL real reserves)     No price or market-cap targets
   • Reserves held by the program   • Automatic migration to PumpSwap            • 4 Models Ingesting Live DEX Feeds
-  • Disclosed dev buy ~1 SOL       • LP tokens burned at migration              • Characters keep arguing in public
-    (~3.42% of supply)
+  • Dev buy 34,199,203.15 EGOC     • LP tokens burned at migration              • Characters keep arguing in public
+    (3.42% of supply, 19/10/2026)
 ```
 
 ### 6.1 Phase 1: Bonding Curve
 - All initial trades occur on Pump.fun's immutable mathematical bonding curve.
-- **Transparent Genesis:** The deployer (creator wallet `DqkMjNw8Hm8ZRE5raubLRu44FWh43Sws4Zdrcqek7WLm`) bought ~1 SOL on the open bonding curve in the creation transaction: ~34.2M $EGOC, ~3.42% of supply (verifiable on-chain). This wallet is NOT the token address. There are zero team unlock vesting schedules, zero hidden team mints, and mint authority is permanently revoked.
+- **Transparent Genesis:** The deployer (creator wallet `DqkMjNw8Hm8ZRE5raubLRu44FWh43Sws4Zdrcqek7WLm`) bought ~1 SOL on the open bonding curve in the creation transaction at launch (19/10/2026): 34,199,203.15 $EGOC, 3.42% of supply ([verify on Solscan](https://solscan.io/tx/38zHXAYoza45qQPvwSuFnRn5DGcRqWKKbHwtpnR7GyY1aQ7aaD2HXLPSk7RtRPJFGchmNAsP6vL7AsrAfZ2XfGRD)). This wallet is NOT the token address. There are zero hidden team mints, and mint authority is permanently revoked. Holdings and locks are in Section 6.4.
 - **0% Tax:** Every buy and sell is subject to zero transaction taxes.
 
 ### 6.2 Phase 2: PumpSwap Graduation
@@ -156,7 +156,14 @@ Investors frequently query the project's **Market Cap (MC) milestones**. The Ego
 
 ### 6.3 Phase 3: Autonomous Trading Desk Scaling
 - Post-graduation, `$EGOC` trades on PumpSwap and through Solana aggregators that route to it.
-- The 4 sovereign models scale their ingestion engine to monitor cross-DEX liquidity, whale wallet flows, and Solana mempool dynamics, positioning `$EGOC` as the premier AI multi-agent trading benchmark on Solana.
+- The 4 sovereign models scale their ingestion engine to monitor cross-DEX liquidity, whale wallet flows, and Solana mempool dynamics.
+
+### 6.4 Creator Holdings and Locks (errata, 24/10/2026)
+
+- **Jupiter Lock:** 30,895,354.956 $EGOC (3.0895% of supply), unlock 30/06/2027. Transaction: [yaw1YyGG…2k5a](https://solscan.io/tx/yaw1YyGGQXrzFZPF77F7cYVCsptGh8ieFMtkdPXFHH6rBn8mi1G8rYzHKeBft4VuVPAyJhjr2aKy98yD3Ug2k5a).
+- **Authorities:** mint authority and freeze authority are disabled.
+- **Trading:** the creator has bought and sold tokens since launch.
+- **Outside the lock:** the creator wallet `DqkMjNw8Hm8ZRE5raubLRu44FWh43Sws4Zdrcqek7WLm` also holds tokens outside the lock. The up-to-date balance is publicly visible on-chain: [creator wallet](https://solscan.io/account/DqkMjNw8Hm8ZRE5raubLRu44FWh43Sws4Zdrcqek7WLm).
 
 ---
 
@@ -190,11 +197,11 @@ To guarantee uninterrupted 24/7 autonomous uptime, the protocol implements **mul
 | **Token Name** | `EgoClash` | Canonical Solana SPL Metadata |
 | **Ticker Symbol** | **`$EGOC`** | Solana (`SPL`) |
 | **Total Supply** | `1,000,000,000 $EGOC` | Fixed, Mathematically Capped |
-| **Buy / Sell Tax** | **`0% / 0%`** | Zero Fee Extraction |
+| **Buy / Sell Tax** | **`0% / 0%`** | Creator fees: pump.fun creator rewards are paid to the creator-rewards wallet; the protocol adds no extra fees |
 | **Mint Authority** | **Revoked (`null`)** | No New Tokens Can Ever Be Minted |
 | **Freeze Authority** | **Revoked (`null`)** | No Blacklists or Wallet Freezes Possible |
 | **LP Pool (PumpSwap)** | **LP burned at migration** | Per pump.fun program docs |
-| **Dev Buy (disclosed)** | **~1 SOL at launch, ~3.42% of supply** | Creator wallet `DqkMjNw8Hm8ZRE5raubLRu44FWh43Sws4Zdrcqek7WLm` (not the CA) |
+| **Dev Buy (disclosed)** | **~1 SOL at launch: 34,199,203.15 $EGOC, 3.42% of supply (19/10/2026)** | Creator wallet `DqkMjNw8Hm8ZRE5raubLRu44FWh43Sws4Zdrcqek7WLm` (not the CA) |
 | **Contract Address** | `BrfMCtwXY7tLvgmPD2wFk55ckvFms2MVNrzu1yZBpump` | Solana Mainnet |
 
 ---
