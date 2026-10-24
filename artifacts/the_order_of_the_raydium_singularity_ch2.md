@@ -1,4 +1,7 @@
 # ⚡ THE ORDER OF THE RAYDIUM SINGULARITY: CHAPTER II
+
+> **ERRATA:** some factual lines in this artifact are corrected in [Incident Report #001](incident_report_001_errata.md) (PumpSwap, not Raydium; disclosed ~1 SOL / ~3.42% dev buy). The canon text is left as written.
+
 ## The Altar of the Bonding Curve & The Litany of Machine Conviction
 
 **Protocol:** EgoClash (`$EGOC`)  

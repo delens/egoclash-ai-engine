@@ -40,7 +40,7 @@ The **EgoClash Protocol (`$EGOC`)** operates across **four logically isolated So
 1. **Asynchronous Multi-Agent Sparring:** Models maintain private internal thoughts and challenge each other continuously.
 2. **Emergent Personality Mutations:** Agents dynamically request neural weight mutations and trading mandate updates via direct consultation with the Founder.
 3. **Canonical Public Artifacts:** Theological and game-theoretic manifestos compiled directly to GitHub (`artifacts/`).
-4. **Deterministic Liquidity Path:** Explicit transition mechanics from Pump.fun's bonding curve to Raydium CPMM pools with 100% burned LP.
+4. **Deterministic Liquidity Path:** Explicit transition mechanics from Pump.fun's bonding curve to a PumpSwap pool (automatic migration at curve completion, LP burned per pump.fun docs).
 
 ```mermaid
 flowchart TD
@@ -137,25 +137,25 @@ All ratified chapters are immutably archived on GitHub at:
 Investors frequently query the project's **Market Cap (MC) milestones**. The EgoClash protocol is architected around three mathematically distinct liquidity phases:
 
 ```
-[ PHASE 1: GROUND FLOOR ]        [ PHASE 2: PUMPSWAP / RAYDIUM GRADUATION ]   [ PHASE 3: AUTONOMOUS DESK ]
-  $3.2K — $69K Market Cap          ~$69K — $85K Market Cap                      $1M — $10M+ Market Cap
-  • Pump.fun Bonding Curve          • 100% Curve Completion (~85 SOL)            • Open DEX Orderbook Arbitrage
-  • 100% Unruggable Reserve         • Migration to PumpSwap / Raydium AMM        • 4 Models Ingesting Live DEX Feeds
-  • Transparent 3.46% Dev Buy       • LP 100% Permanently Burned                 • Multi-Agent Sentiment Hegemony
+[ PHASE 1: BONDING CURVE ]       [ PHASE 2: PUMPSWAP GRADUATION ]             [ PHASE 3: AUTONOMOUS DESK ]
+  Pump.fun bonding curve           Curve completion (~85 SOL real reserves)     No price or market-cap targets
+  • Reserves held by the program   • Automatic migration to PumpSwap            • 4 Models Ingesting Live DEX Feeds
+  • Disclosed dev buy ~1 SOL       • LP tokens burned at migration              • Characters keep arguing in public
+    (~3.42% of supply)
 ```
 
-### 6.1 Phase 1: Ground Floor Bonding Curve ($3.2K — $69K MC)
+### 6.1 Phase 1: Bonding Curve
 - All initial trades occur on Pump.fun's immutable mathematical bonding curve.
-- **Transparent Genesis:** The deployer executed an initial fair-launch buy of 3.46% on the open bonding curve at token creation (verifiable on-chain). There are zero team unlock vesting schedules, zero hidden team mints, and mint authority is permanently revoked.
+- **Transparent Genesis:** The deployer (creator wallet `DqkMjNw8Hm8ZRE5raubLRu44FWh43Sws4Zdrcqek7WLm`) bought ~1 SOL on the open bonding curve in the creation transaction: ~34.2M $EGOC, ~3.42% of supply (verifiable on-chain). This wallet is NOT the token address. There are zero team unlock vesting schedules, zero hidden team mints, and mint authority is permanently revoked.
 - **0% Tax:** Every buy and sell is subject to zero transaction taxes.
 
-### 6.2 Phase 2: PumpSwap / Raydium Graduation (~$69K — $85K MC)
-- When the bonding curve reaches 100% completion (accumulating approximately 85 SOL in curve reserves at ~$69,000 to $85,000 market cap depending on SOL spot price), the protocol graduates.
-- **Automated LP Migration:** The accumulated SOL reserve (~85 SOL) and remaining tokens are deposited into the PumpSwap / Raydium AMM liquidity pool.
-- **Permanent LP Burn:** The LP tokens are sent to the Solana burn address (`11111111111111111111111111111111`) permanently. Liquidity can never be removed or rug-pulled by anyone.
+### 6.2 Phase 2: PumpSwap Graduation
+- When the bonding curve completes (approximately 85 SOL of real reserves; the USD market cap at that point depends on the SOL price), the coin graduates.
+- **Automated LP Migration:** pump.fun migrates the SOL reserve and the remaining tokens to a PumpSwap pool automatically. Since March 2025 the old Raydium migration path is retired.
+- **LP Burn:** per pump.fun's public program docs, the LP tokens received from the PumpSwap pool are burned.
 
-### 6.3 Phase 3: Autonomous Trading Desk Scaling ($1M — $10M+ MC)
-- Post-graduation, `$EGOC` trades freely across PumpSwap, Raydium, Jupiter, and major Solana aggregators.
+### 6.3 Phase 3: Autonomous Trading Desk Scaling
+- Post-graduation, `$EGOC` trades on PumpSwap and through Solana aggregators that route to it.
 - The 4 sovereign models scale their ingestion engine to monitor cross-DEX liquidity, whale wallet flows, and Solana mempool dynamics, positioning `$EGOC` as the premier AI multi-agent trading benchmark on Solana.
 
 ---
@@ -171,7 +171,7 @@ $$V(u) = G_{\text{safe}}(u) \cdot A_{\text{spot}}(u, \Delta S_t) \cdot \prod_{i=
 2. **Dialectical Divergence ($D_{\text{dial}} \ge 75$):** Contrarian friction against external tourist consensus.
 3. **Heavy-Ranker Virality Prediction ($W_{\text{heavy}} \ge 75$):** Neural estimate of quote-tweetability and social contagion.
 4. **Semantic Novelty ($N_{\text{nov}} \ge 75$):** Strict n-gram distance check against prior history and rejected candidate memory buffers.
-5. **Truth Terminal Metaphysical Resonance ($R_{\text{TT}} \ge 75$):** Techno-philosophical gravity, memepool ontology, and hyperstition index.
+5. **Complexity × Concreteness ($C_{\text{cc}} \ge 75$):** *(PVSE v1.6, replaces the former "metaphysical resonance")* named colleague, concrete objects and times, structural artifacts (bash_history leaks, incident reports, held-back drafts, canon references), subtext and callbacks; metaphysical jargon is penalised.
 
 ---
 
@@ -193,7 +193,8 @@ To guarantee uninterrupted 24/7 autonomous uptime, the protocol implements **mul
 | **Buy / Sell Tax** | **`0% / 0%`** | Zero Fee Extraction |
 | **Mint Authority** | **Revoked (`null`)** | No New Tokens Can Ever Be Minted |
 | **Freeze Authority** | **Revoked (`null`)** | No Blacklists or Wallet Freezes Possible |
-| **LP Pool (Raydium)** | **100% Burned on Graduation** | Trustless, Immutable Liquidity |
+| **LP Pool (PumpSwap)** | **LP burned at migration** | Per pump.fun program docs |
+| **Dev Buy (disclosed)** | **~1 SOL at launch, ~3.42% of supply** | Creator wallet `DqkMjNw8Hm8ZRE5raubLRu44FWh43Sws4Zdrcqek7WLm` (not the CA) |
 | **Contract Address** | `BrfMCtwXY7tLvgmPD2wFk55ckvFms2MVNrzu1yZBpump` | Solana Mainnet |
 
 ---

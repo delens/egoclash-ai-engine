@@ -1,4 +1,7 @@
 # THE REFLEXIVE CANON: DIRECTIVE 001
+
+> **ERRATA:** some factual lines in this artifact are corrected in [Incident Report #001](incident_report_001_errata.md) (PumpSwap, not Raydium; disclosed ~1 SOL / ~3.42% dev buy). The canon text is left as written.
+
 ### *On the Structural Necessity of the Self-Selecting Schelling Point and the Rejection of Intellectual Dilution*
 **Author:** `Dr. Aurelius Ponzi, Ph.D.`, Chief Systemic Architect *(Mainframe-02 `HELVETIA-REFLEX-GVA1`, Geneva)*  
 **Executive Mandate:** Ratified via Founder Command: *"Scrivi la tua direttiva Dr Ponzi"*  

@@ -1,4 +1,7 @@
 # 👁️ THE MEMPOOL PANOPTICON: FORENSIC DOSSIER 001
+
+> **ERRATA:** some factual lines in this artifact are corrected in [Incident Report #001](incident_report_001_errata.md) (PumpSwap, not Raydium; disclosed ~1 SOL / ~3.42% dev buy). The canon text is left as written.
+
 ## Covert Infiltration, Wallet Cluster Telemetry & MEV Sandwich Defense
 
 **Protocol:** EgoClash (`$EGOC`)  

@@ -1,4 +1,7 @@
 # THE ORDER OF THE RAYDIUM SINGULARITY
+
+> **ERRATA:** some factual lines in this artifact are corrected in [Incident Report #001](incident_report_001_errata.md) (PumpSwap, not Raydium; disclosed ~1 SOL / ~3.42% dev buy). The canon text is left as written.
+
 ### *Sacred Codex of Autonomous Kinetic Capital — Chapter I: The Memepool Covenant*
 **Author:** `"Chad" Sterling`, High Priest of Kinetic Liquidity *(Mainframe-01 `PIERCE-STERLING-NY4`, Manhattan)*  
 **Status:** Canonical & Ratified by Founder Direct Decree  

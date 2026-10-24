@@ -1,4 +1,7 @@
 # 🛡️ THE IRON CITADEL RISK CHARTER: CHAPTER I
+
+> **ERRATA:** some factual lines in this artifact are corrected in [Incident Report #001](incident_report_001_errata.md) (PumpSwap, not Raydium; disclosed ~1 SOL / ~3.42% dev buy). The canon text is left as written.
+
 ## Covenant of Capital Preservation, Volatility Dampening & Circuit Breakers
 
 **Protocol:** EgoClash (`$EGOC`)  
